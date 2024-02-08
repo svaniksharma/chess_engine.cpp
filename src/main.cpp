@@ -1,6 +1,8 @@
+#include "board.h"
 #include <iostream>
 
 int main(int argc, const char *argv[]) {
-  std::cout << "Hello world!\n";
+  Board b;
+  std::cout << b << "\n";
   return 0;
 }
